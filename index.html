@@ -42,7 +42,7 @@
     .contato-sec{ padding:84px 28px !important; }
     .contato-grid{ grid-template-columns:1fr !important; gap:44px !important; }
     .contato-card{ padding:36px !important; }
-    .footer-sec{ padding:56px 28px 36px !important; }
+    .footer-sec{ padding:40px 28px !important; }
   }
   @media (max-width:1024px){ #barra-flutuante .barra-link{ display:none !important; } }
   @media (max-width:760px){ .barra-sub{ display:none !important; } }
@@ -70,8 +70,8 @@
       .contato-sec{ padding:52px 20px !important; }
     .contato-grid h2{ font-size:32px !important; }
     .contato-card{ padding:28px !important; }
-    .footer-sec{ padding:40px 20px 28px !important; }
-    .footer-top{ flex-direction:column !important; gap:34px !important; }
+    .footer-sec{ padding:32px 20px !important; }
+    .footer-top{ flex-direction:column !important; align-items:flex-start !important; gap:20px !important; }
     .footer-links{ gap:44px !important; flex-wrap:wrap; }
     .footer-bottom{ flex-direction:column !important; align-items:flex-start !important; gap:14px !important; }
   }
@@ -148,8 +148,7 @@
     <div class="contato-grid" style="max-width:1100px; margin:0 auto; position:relative; display:grid; grid-template-columns:1fr 1.05fr; gap:80px;">
       <div>
         <div style="display:flex; align-items:center; gap:14px; margin-bottom:22px;"><span style="width:34px; height:1px; background:#cda86a;"></span><span style="font-family:'Montserrat',sans-serif; font-weight:500; font-size:12px; letter-spacing:4px; text-transform:uppercase; color:#cda86a;">Contato</span></div>
-        <h2 style="font-family:'Bodoni Moda',serif; font-weight:500; font-size:42px; line-height:1.12; color:#f6ece2;">Fale com o escritório</h2>
-        <div style="margin-top:40px; display:flex; flex-direction:column; gap:26px;">
+        <div style="margin-top:18px; display:flex; flex-direction:column; gap:26px;">
           <div style="display:flex; gap:18px; align-items:flex-start;"><span style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#cda86a; width:90px; flex-shrink:0; padding-top:3px;">Endereço</span><span style="font-size:14px; line-height:1.6; color:#ddd2c6; font-weight:300;">Av. Brasil, 1714, Sala 501<br>Funcionários, Belo Horizonte/MG<br>CEP 30140-004</span></div>
           <div style="display:flex; gap:18px; align-items:flex-start;"><span style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#cda86a; width:90px; flex-shrink:0; padding-top:3px;">WhatsApp</span><span style="font-size:14px; line-height:1.6; color:#ddd2c6; font-weight:300;">(31) 9 7229 7256</span></div>
           <div style="display:flex; gap:18px; align-items:flex-start;"><span style="font-size:12px; letter-spacing:2px; text-transform:uppercase; color:#cda86a; width:90px; flex-shrink:0; padding-top:3px;">E-mail</span><span style="font-size:14px; line-height:1.6; color:#ddd2c6; font-weight:300; word-break:break-all;">advocacia@joaogarciadelima.com.br</span></div>
@@ -167,18 +166,17 @@
   </main>
 
   <!-- ===== FOOTER ===== -->
-  <footer class="footer-sec" style="background:#512028; color:#c9bfc1; padding:56px 48px 36px;">
+  <footer class="footer-sec" style="background:#512028; color:#c9bfc1; padding:40px 48px;">
     <div style="max-width:1100px; margin:0 auto;">
-      <div class="footer-top" style="display:flex; justify-content:space-between; align-items:flex-start; padding-bottom:40px; border-bottom:1px solid rgba(255,255,255,.1);">
+      <div class="footer-top" style="display:flex; justify-content:space-between; align-items:center; gap:40px;">
         <div>
           <div style="font-family:'Bodoni Moda',serif; font-size:24px; font-weight:600; color:#ecdfd6;">João Garcia de Lima</div>
           <div style="font-family:'Montserrat',sans-serif; font-weight:600; font-size:12px; letter-spacing:5px; text-transform:uppercase; margin-top:6px; color:#cda86a;">Advocacia</div>
         </div>
-        <div style="font-size:13px; line-height:1.8; font-weight:300;">Av. Brasil, 1714, Sala 501, Funcionários<br>Belo Horizonte/MG · CEP 30140-004<br>(31) 9 7229 7256 · advocacia@joaogarciadelima.com.br</div>
-      </div>
-      <div class="footer-bottom" style="display:flex; flex-direction:column; gap:8px; padding-top:24px; font-size:12px; line-height:1.7; font-weight:300;">
-        <span>João Garcia de Lima Sociedade Individual de Advocacia · CNPJ 46.444.325/0001-64 · OAB/MG 183.738</span>
-        <span>Este site tem caráter meramente informativo, em conformidade com o Provimento 205/2021 da OAB.</span>
+        <div class="footer-bottom" style="display:flex; flex-direction:column; gap:8px; font-size:12px; line-height:1.7; font-weight:300;">
+          <span>João Garcia de Lima Sociedade Individual de Advocacia · CNPJ 46.444.325/0001-64 · OAB/MG 183.738</span>
+          <span>Este site tem caráter meramente informativo, em conformidade com o Provimento 205/2021 da OAB.</span>
+        </div>
       </div>
     </div>
   </footer>
